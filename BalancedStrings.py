@@ -20,9 +20,6 @@ public:
         {
             st.push(char_array[i]);
         }
-        
-        
-        
         while (!st.empty())
         {
             a_curr = st.top();
@@ -30,26 +27,21 @@ public:
             
             if (a_curr == 'R')
             {
-                r = r + 1;
-                
+                r = r + 1;   
             }
             else if (a_curr == 'L')
             {
                 l = l + 1;
-                
             }
             
             if( r == l)
             {
-                
                 c = c + 1;
                 r = 0;
                 l = 0;
             }
-            cout << c;
         }
     
         return c;       
-        
 }
 };
