@@ -52,7 +52,6 @@ public:
         difference(root->right);
         
     }
-    
-    
+   
     
 };
